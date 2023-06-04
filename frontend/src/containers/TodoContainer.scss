@@ -1,0 +1,19 @@
+.TodoContainer {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 20% 5%;
+  justify-content: center;
+
+  @media screen and (min-width: 768px) {
+    flex-flow: row nowrap;
+    justify-content: space-around;
+  }
+
+  .TodoCard {
+    padding: 23px 20px;
+    background: #F2F2F2;
+    border-radius: 6px;
+    box-shadow: 0 6px 18px 0 rgba(73, 89, 101, 0.8);
+    width: 600px;
+  }
+}

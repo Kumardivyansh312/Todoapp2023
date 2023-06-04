@@ -1,0 +1,27 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 18px;
+  align-items: center;
+  background: white;
+  line-height: 26px;
+
+  span {
+    cursor: pointer;
+  }
+
+  button {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  &:nth-child(2n) {
+    background: #ccc8fb;
+  }
+
+  &:last-child {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+}
